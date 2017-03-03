@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="../build/react.js"></script>
+    <script src="../build/react-dom.js"></script>
+    <script src="../build/browser.min.js"></script>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<div id="test"></div>
+<script type="text/babel">
+    var arr = [
+        <li>cxy</li>,
+        <li>whw</li>,
+    ];
+    ReactDOM.render(
+    <ul> {arr} </ul>,
+            document.getElementById("test")
+    );
+
+</script>
+</body>
+</html>
