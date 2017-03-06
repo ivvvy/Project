@@ -8,6 +8,28 @@ var CommentBox=React.createClass({
   }
 });
 
+var CommentList=React.createClass({
+  render:function(){
+    return(
+      <div>
+        I'am a commentList
+      </div>
+    );
+  }
+});
+
+var CommentForm=React.createClass({
+  render:function(){
+    return(
+      <div>
+        There is a commentForm
+        </div>
+    );
+  }
+});
+
+
+
 ReactDOM.render(
 <CommentBox />,
   document.getElementById('content')
